@@ -1,0 +1,38 @@
+@import 'base';
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.div-navigate {
+    height: 60px;
+}
+
+.pagination-active .page-link {
+    color: #014c8c;
+    background-color: #eceeef;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
